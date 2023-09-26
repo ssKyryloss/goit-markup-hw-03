@@ -3,6 +3,9 @@ body {
     color: #434455;
     background-color: #ffffff;
 }
+.top-line {
+    border-bottom: 1px solid #e7e9fc
+}
 .top-line-logo {
 
     font-size: 18px;
@@ -18,12 +21,11 @@ body {
 .logo-two {
     color: #2E2F42;
 }
-/*
 .top-line-li {
 
     list-style-type: none;
 }
-*/
+
 .top-line-nav {
     color: #2E2F42;
     font-size: 16px;
