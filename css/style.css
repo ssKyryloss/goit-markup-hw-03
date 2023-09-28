@@ -54,12 +54,12 @@ img {
 .top-line-item {
     display: flex;
     gap: 40px;
+    padding: 24px; 0
 }
 .logo-two {
     color: #2E2F42;
 }
 .top-line-li {
-    padding: 40px 0;
     list-style-type: none;
 }
 
