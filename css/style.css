@@ -184,6 +184,8 @@ img {
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        text-align: center;
+        margin-bottom: 8px;
 }
 .section-two-text {
     color: var(--SLATE, #434455);
@@ -191,6 +193,7 @@ img {
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        text-align: center;
 }
 .section-three {
     background-color: #F4F4FD;
@@ -215,6 +218,7 @@ img {
 }
 .section-three-list {
     width: calc((100% - 48px) / 3);
+    
 }
 .cont-info {
     padding: 32px 16px;
@@ -240,6 +244,7 @@ letter-spacing: 0.02em;
 .footer {
     background-color: #2e2f42;
     padding: 100px 0; 
+    display: inline-block;
 }
 .footer-text {
     color: var(--CLOUD, #F4F4FD);
@@ -257,7 +262,6 @@ letter-spacing: 0.02em;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    display: inline-block;
     margin-bottom: 16px;
 
 }
