@@ -32,6 +32,8 @@ img {
 }
 .top-line {
     border-bottom: 1px solid #e7e9fc;
+    display: flex;
+    
 }
 .top-line-nav {
     display: flex;
@@ -60,7 +62,6 @@ img {
     list-style-type: none;
     
 }
-
 .top-line-nav {
     color: #2E2F42;
     font-size: 16px;
@@ -69,7 +70,6 @@ img {
     text-decoration: none;
     letter-spacing: 0.02em;
     padding: 24px 0;
-    display: flex;
 }
 .top-line-nav:hover,
 .top-line-nav:focus {
