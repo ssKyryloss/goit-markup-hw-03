@@ -276,9 +276,9 @@ letter-spacing: 0.02em;
     text-transform: uppercase;
     color: #4d5ae5;
     margin-bottom: 16px;
+    display: inline-block;
 
 }
 .footer-logo-two {
     color: #F4F4FD;
-    display: inline-block;
 }
