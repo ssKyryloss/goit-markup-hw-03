@@ -35,6 +35,10 @@ img {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.top-line-nav {
+    display: flex;
+    align-items: center;
+}
 .top-line-logo {
 
     font-size: 18px;
@@ -45,13 +49,17 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform:uppercase ;
-    
+    margin-right: 76px;
+}
+.top-line-item {
+    display: flex;
+    gap: 40px;
 }
 .logo-two {
     color: #2E2F42;
 }
 .top-line-li {
-
+    padding: 40px 0;
     list-style-type: none;
 }
 
