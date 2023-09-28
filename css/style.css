@@ -34,6 +34,7 @@ img {
 }
 .top-line {
     border-bottom: 1px solid #e7e9fc;
+    padding: 24px 0;
 }
 .top-line-nav {
     display: flex;
@@ -54,14 +55,12 @@ img {
 .top-line-item {
     display: flex;
     gap: 40px;
-    padding: 24px; 0
 }
 .logo-two {
     color: #2E2F42;
 }
 .top-line-li {
     list-style-type: none;
-    padding: 24px 0;
 }
 
 .top-line-nav {
