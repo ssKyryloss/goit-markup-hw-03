@@ -27,7 +27,7 @@
   </head>
   <body>
     <header class="top-line">
-      <div class="container container-header">
+      <div class="container container-heder">
         <nav class="top-line-nav">
           <a href="./index.html" class="top-line-logo"
             >Web<span class="logo-two">Studio</span></a
@@ -69,8 +69,8 @@
       </section>
       <section class="section-one">
         <div class="container">
-          <h2>main-section-2</h2>
-          <ul>
+          <h2 class="visually-hidden">main-section-2</h2>
+          <ul class="section-one-item">
             <li class="section-one-li">
               <h3 class="section-one-header">Strategy</h3>
               <p class="section-one-text">
@@ -105,7 +105,7 @@
       <section class="section-two">
         <div class="container">
           <h2 class="section-two-header-one">Our Team</h2>
-          <ul>
+          <ul class="section-two-item">
             <li class="section-two-list">
               <img
                 src="./images/MarkGuerrero.jpg"
@@ -113,8 +113,10 @@
                 width="264"
                 class="section-two-img"
               />
-              <h3 class="section-two-header">Mark Guerrero</h3>
-              <p class="section-two-text">Product Designer</p>
+              <div class="cont-name">
+                <h3 class="section-two-header">Mark Guerrero</h3>
+                <p class="section-two-text">Product Designer</p>
+              </div>
             </li>
             <li class="section-two-list">
               <img
@@ -123,8 +125,10 @@
                 width="264"
                 class="section-two-img"
               />
-              <h3 class="section-two-header">Tom Ford</h3>
-              <p class="section-two-text">Frontend Developer</p>
+              <div class="cont-name">
+                <h3 class="section-two-header">Tom Ford</h3>
+                <p class="section-two-text">Frontend Developer</p>
+              </div>
             </li>
             <li class="section-two-list">
               <img
@@ -133,8 +137,10 @@
                 width="264"
                 class="section-two-img"
               />
-              <h3 class="section-two-header">Camila Garcia</h3>
-              <p class="section-two-text">Marketing</p>
+              <div class="cont-name">
+                <h3 class="section-two-header">Camila Garcia</h3>
+                <p class="section-two-text">Marketing</p>
+              </div>
             </li>
             <li class="section-two-list">
               <img
@@ -143,8 +149,10 @@
                 width="264"
                 class="section-two-img"
               />
-              <h3 class="section-two-header">Daniel Wilson</h3>
-              <p class="section-two-text">UI Designer</p>
+              <div class="cont-name">
+                <h3 class="section-two-header">Daniel Wilson</h3>
+                <p class="section-two-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -152,66 +160,78 @@
       <section class="section-three">
         <div class="container">
           <h2 class="section-one-header-two">Our Portfolio</h2>
-          <ul>
-            <li>
+          <ul class="section-three-item">
+            <li class="section-three-list">
               <img
                 src="./images/BankingApp.jpg"
                 alt="Banking App"
                 width="360"
                 class="section-three-img"
               />
-              <h3 class="section-three-header">Banking App</h3>
-              <p class="section-three-text">App</p>
+              <div class="cont-info">
+                <h3 class="section-three-header">Banking App</h3>
+                <p class="section-three-text">App</p>
+              </div>
             </li>
-            <li>
+            <li class="section-three-list">
               <img
                 src="./images/CashlessPayment.jpg"
                 alt="Cashless Payment"
                 width="360"
                 class="section-three-img"
               />
-              <h3 class="section-three-header">Cashless Payment</h3>
-              <p class="section-three-text">Marketing</p>
+              <div class="cont-info">
+                <h3 class="section-three-header">Cashless Payment</h3>
+                <p class="section-three-text">Marketing</p>
+              </div>
             </li>
-            <li>
+            <li class="section-three-list">
               <img
                 src="./images/MeditationApp.jpg"
                 alt="Meditation App"
                 width="360"
                 class="section-three-img"
               />
-              <h3 class="section-three-header">Meditation App</h3>
-              <p class="section-three-text">App</p>
+              <div class="cont-info">
+                <h3 class="section-three-header">Meditation App</h3>
+                <p class="section-three-text">App</p>
+              </div>
             </li>
-            <li>
+            <li class="section-three-list">
               <img
                 src="./images/TaxiService.jpg"
                 alt="Taxi Service"
                 width="360"
                 class="section-three-img"
               />
-              <h3 class="section-three-header">Taxi Service</h3>
-              <p class="section-three-text">Marketing</p>
+              <div class="cont-info">
+                <h3 class="section-three-header">Taxi Service</h3>
+                <p class="section-three-text">Marketing</p>
+              </div>
             </li>
-            <li>
+            <li class="section-three-list">
               <img
                 src="./images/ScreenIllustrations.jpg"
                 alt="Screen Illustrations"
                 width="360"
                 class="section-three-img"
               />
-              <h3 class="section-three-header">Screen Illustrations</h3>
-              <p class="section-three-text">Design</p>
+              <div class="cont-info">
+                <h3 class="section-three-header">Screen Illustrations</h3>
+                <p class="section-three-text">Design</p>
+              </div>
             </li>
-            <li>
+            <li class="section-three-list">
               <img
                 src="./images/OnlineCourses.jpg"
                 alt="Online Courses"
                 width="360"
                 class="section-three-img"
               />
-              <h3 class="section-three-header">Online Courses</h3>
-              <p class="section-three-text">Marketing</p>
+              <div class="cont-info">
+                <h3 class="section-three-header">Online Courses</h3>
+                <p class="section-three-text">Marketing</p>
+              </div>
             </li>
           </ul>
         </div>
