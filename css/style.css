@@ -12,6 +12,9 @@ body {
     display: flex;
     
 }
+.container-header {
+    display: flex;
+}
 p,h1,h2,h3,h4,h5,h6 {
     margin-top: 0;
     margin-bottom: 0;
@@ -151,6 +154,7 @@ img {
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
+        margin-bottom: 72px;
 }
 .section-two {
     background-color: #F4F4FD;
